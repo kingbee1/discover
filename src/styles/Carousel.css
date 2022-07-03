@@ -1,0 +1,27 @@
+.carousel {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(var(--clr-bg));
+}
+
+.carousel-img {
+    width: 900px;
+}
+
+.arrows {
+    cursor: pointer;
+    color: var(--clr-white);
+}
+
+.arrow-1 {
+    position: absolute;
+    left: 5%;
+}
+
+.arrow-2 {
+    position: absolute;
+    right: 5%;
+}

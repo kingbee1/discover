@@ -1,0 +1,59 @@
+.details {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(var(--sec-bg)), url(../images/space.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: var(--clr-white);
+    padding-inline: 4em;
+}
+
+@media (max-width:1000px) {
+    .details {
+        width: 100%;
+    }
+}
+
+.details > * {
+    text-align: center;
+    cursor: pointer;
+}
+
+.details-header {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.details-text span {
+    display: block;
+    font-size: clamp(3.5rem, 12vw + 1rem, 8rem);
+    color: hsl(var(--clr-glass));
+}
+
+.details-text p {
+    color: var(--clr-gray);
+    padding-block: .5rem;
+    text-transform: uppercase;
+    font-size: clamp(.4rem, 1vw + .4rem, 12rem);
+    cursor: pointer;
+}
+
+.details-text p:hover {
+    color: var(--clr-white);
+    transform: scale(110%);
+    transition: 300ms;
+}
+
+.done-btn {
+    margin-block: 1.6rem;
+}
+
+.done-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    padding: 1rem;
+    background: hsl(var(--clr-glass));
+}
