@@ -68,6 +68,9 @@
     .close-icon {
         display: block;
         color: var(--clr-white);
+        position: absolute;
+        right: 39rem;
+        top: 1.3rem;
     }
     
     .hamburger-icon {
